@@ -7,4 +7,3 @@
 * AHK icon and script will be in the bottom right corner in the try
 * To activate the script for a google sheet ID, select the script id of a google sheet and press the hotkey `CTRL+SHIFT+C`
 * To activate the script for a google drive folder ID, select the script id of a google drive folder and press the hotkey `CTRL+SHIFT+F`
-
