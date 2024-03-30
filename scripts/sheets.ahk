@@ -18,48 +18,12 @@ SetWorkingDir %A_ScriptDir%
  Return
 }
 
+;----------Go To Selected GDrive Folder ID----------
+
 ^+f::
 {
  Send, ^c
  Sleep 50
  Run, https://drive.google.com/drive/folders/%clipboard%
  Return
-}
-
-;----------Variables----------
-
-
-
-
-;----------Functions----------
-
-Date()
-{
-	FormatTime, CurrentDate,, MM/dd/yyyy
-	SendInput %CurrentDate%
-}
-
-DateStamp()
-{
-	FormatTime, CurrentDate,, yyyy.MM.dd
-	SendInput %CurrentDate%
-}
-
-Time12()
-{
-	FormatTime, CurrentTime,, hh:mm:ss tt
-	SendInput %CurrentTime%
-}
-
-Time24()
-{
-	FormatTime, CurrentTime,, HH:mm:ss
-	SendInput %CurrentTime%
-}
-
-DateTime()
-{
-	Date()
-	SendInput {Space}
-	Time24()
 }
