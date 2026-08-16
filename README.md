@@ -9,8 +9,7 @@ on screen, press a hotkey, and it opens in your browser.
 ## Install
 
 * Install AutoHotkey v2 from <https://www.autohotkey.com/>, or with
-  `choco install autohotkey`. The `AutoHotkey_1.1.33.09_setup.exe` bundled in
-  this repo installs v1, which no longer runs this script.
+  `choco install autohotkey`. Version 1 will not run this script.
 * Double click `scripts/sheets.ahk` to start it. The AutoHotkey icon shows in
   the tray at the bottom right.
 * To start it with Windows, copy the script (or a shortcut to it) into your
